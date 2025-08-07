@@ -3,6 +3,16 @@ gpt-4o:
   base_url: https://api.openai.com/v1/
   model: gpt-4o
 
+o3:
+  api_key: openai
+  base_url: https://api.openai.com/v1/
+  model: o3
+
+o3-mini:
+  api_key: openai
+  base_url: https://api.openai.com/v1/
+  model: o3-mini
+
 glm-z1-9b:
   api_key: openrouter
   base_url: https://openrouter.ai/api/v1
@@ -18,12 +28,72 @@ deepseek-r1d-llama-8b:
   base_url: https://openrouter.ai/api/v1
   model: deepseek/deepseek-r1-distill-llama-8b
 
+# deepseek-v3:
+#   api_key: deepseek
+#   base_url: https://api.deepseek.com
+#   model: deepseek-chat
+
 deepseek-v3:
-  api_key: deepseek
-  base_url: https://api.deepseek.com
-  model: deepseek-chat
+  api_key: openrouter
+  base_url: https://openrouter.ai/api/v1
+  model: deepseek/deepseek-chat-v3-0324
 
 deepseek-r1:
-  api_key: deepseek
-  base_url: https://api.deepseek.com
-  model: deepseek-reasoner
+  api_key: openrouter
+  base_url: https://openrouter.ai/api/v1
+  model: deepseek/deepseek-r1-0528
+
+qwen2.5vl-32b:
+  api_key: openrouter
+  base_url: https://openrouter.ai/api/v1
+  model: qwen/qwen2.5-vl-32b-instruct
+
+qwen2.5vl-72b:
+  api_key: openrouter
+  base_url: https://openrouter.ai/api/v1
+  model: qwen/qwen2.5-vl-72b-instruct
+
+llama4-scaut:
+  api_key: openrouter
+  base_url: https://openrouter.ai/api/v1
+  model: meta-llama/llama-4-scout
+
+llama4-maverick:
+  api_key: openrouter
+  base_url: https://openrouter.ai/api/v1
+  model: meta-llama/llama-4-maverick
+
+gemini-1.5-flash:
+  api_key: openrouter
+  base_url: https://openrouter.ai/api/v1
+  model: google/gemini-flash-1.5
+
+gemini-2.0-flash:
+  api_key: openrouter
+  base_url: https://openrouter.ai/api/v1
+  model: google/gemini-2.0-flash-001
+
+gemini-1.5-pro:
+  api_key: openrouter
+  base_url: https://openrouter.ai/api/v1
+  model: google/gemini-pro-1.5
+
+gemini-2.5-pro:
+  api_key: openrouter
+  base_url: https://openrouter.ai/api/v1
+  model: google/gemini-pro-2.5
+
+qwen3-32B:
+  api_key: openrouter
+  base_url: https://openrouter.ai/api/v1
+  model: qwen/qwen3-32b
+
+qwen3-235B:
+  api_key: openrouter
+  base_url: https://openrouter.ai/api/v1
+  model: qwen/qwen3-235b-a22b
+
+claude-3-7-sonnet:
+  api_key: openrouter
+  base_url: https://openrouter.ai/api/v1
+  model: anthropic/claude-3.7-sonnet
