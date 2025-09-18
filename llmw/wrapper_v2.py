@@ -74,7 +74,7 @@ class OpenAIBatchWrapper:
             resp = await self.client.chat.completions.create(
                 model=self.model,
                 messages=prompt_full,
-                max_tokens=self.max_tokens,
+                max_completion_tokens=self.max_tokens,
                 stream=False,
             )
             resp = resp.choices[0].message.content

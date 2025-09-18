@@ -3,6 +3,54 @@ gpt-4o:
   base_url: https://api.openai.com/v1/
   model: gpt-4o
 
+qwen3-30b-a3b:
+  api_key: openrouter
+  base_url: https://openrouter.ai/api/v1
+  model: qwen/qwen3-30b-a3b-instruct-2507
+  
+qwen3-32b:
+  api_key: openrouter
+  base_url: https://openrouter.ai/api/v1
+  model: qwen/qwen3-32b
+
+qwen3-235b-a22b:
+  api_key: openrouter
+  base_url: https://openrouter.ai/api/v1
+  model: qwen/qwen3-235b-a22b-thinking-2507
+
+qwen3-coder:
+  api_key: openrouter
+  base_url: https://openrouter.ai/api/v1
+  model: qwen/qwen3-coder
+
+deepseek-v3.1:
+  api_key: openrouter
+  base_url: https://openrouter.ai/api/v1
+  model: deepseek/deepseek-chat-v3.1
+
+
+
+
+gpt-4.1-nano:
+  api_key: openai
+  base_url: https://api.openai.com/v1/
+  model: gpt-4.1-nano
+
+gpt-5-nano:
+  api_key: openai
+  base_url: https://api.openai.com/v1/
+  model: gpt-5-nano
+
+gpt-5-mini:
+  api_key: openai
+  base_url: https://api.openai.com/v1/
+  model: gpt-5-mini
+
+gpt-5:
+  api_key: openai
+  base_url: https://api.openai.com/v1/
+  model: gpt-5
+
 o3:
   api_key: openai
   base_url: https://api.openai.com/v1/
